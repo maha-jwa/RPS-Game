@@ -1,0 +1,20 @@
+{
+    "name": "RPS Game by Maha",
+    "short_name": "RPS Game",
+    "start_url": "index.html",
+    "scope": "./",
+    "icons": [{
+            "src": "rps100.png",
+            "sizes": "100x100",
+            "type": "image/png"
+        },
+        {
+            "src": "rps512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffd31d",
+    "background_color": "#333",
+    "display": "standalone"
+}

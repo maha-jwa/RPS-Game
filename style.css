@@ -1,0 +1,107 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); */
+
+body {
+    background-color: #cacebe;
+    color: #60BE42;
+    /* font-family: 'Bangers', cursive; */
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1 {
+    margin: 2px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.LG {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#container {
+    width: 80%;
+    height: 628px;
+    margin: 15px 10%;
+    /* border: solid green;
+    border-width: 1px; */
+}
+
+.title {
+    border: solid #60BE42;
+    border-width: 0 0 1px 0;
+    text-align: center;
+    position: sticky;
+    z-index: 10;
+    background-color: #cacebe;
+    height: 170px;
+}
+
+.center {
+    text-align: center;
+}
+
+#bt4 {
+    width: 30%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    border-color: #ffffff;
+    border-width: 1px;
+    font-weight: 400;
+    font-size: x-large;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 150px 35% 5px 35%;
+    padding: 15px 15px;
+    background-color: #60BE42;
+}
+
+#gamePhotos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#gamePhotos>img {
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #gamePhotos>img {
+        width: 200px;
+        height: 200px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #gamePhotos>img {
+        width: 170px;
+        height: 170px;
+        margin: 5px;
+    }
+    #bt4 {
+        margin: 20px 35% 5px 35%;
+        width: 40%;
+        height: 50px;
+        font-weight: 400;
+        font-size: large;
+    }
+    h1 {
+        font-weight: 300;
+        font-size: 30px;
+    }
+    .LG {
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .title {
+        display: flex;
+        height: 50px;
+    }
+}
