@@ -1,215 +1,220 @@
-body {
-    width: 100%;
-    background-color: #e3e58f;
-    left: 0;
-    top: 0;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#topHeader {
-    background-color: #e3e58f;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    text-align: center;
-}
-
-#title {
-    position: absolute;
-    height: 70px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    margin: 0;
-    background-color: #960cc3;
-    color: #60BE42;
-    font-family: Audiowide Regular;
-}
-
-#logo>img {
-    left: 20%;
-    position: absolute;
-    z-index: 10;
-    padding: 1px;
-}
-
-#title>p {
-    margin: 10px;
-    font-weight: 400;
-    font-size: 32px;
-}
-
-.LG {
-    margin: 0;
-    font-size: 42px;
-    font-weight: 500;
-    color: #cacebe;
-}
-
-#score {
-    width: 100%;
-    font-size: 25px;
-    font-weight: 300;
-    height: 30px;
-    background-color: #60BE42;
-    color: #960cc3;
-    margin: 72px 0 0 0;
-}
-
-#yourScore,
-#yourTries,
-#yourlosses {
-    font-size: 22px;
-    color: #cacebe;
-    border: thin solid #cacebe;
-    height: 25px;
-}
-
-#footerDiv {
-    position: absolute;
-    width: 100%;
-    height: 50px;
-    bottom: 5px;
-    margin: 2px 0;
-    position: fixed;
-    background-color: #e3e58f;
-}
-
-#bt4 {
-    width: 20%;
-    height: 38px;
-    text-align: center;
-    border-color: #ffffff;
-    border-width: 1px;
-    font-weight: 400;
-    font-size: x-large;
-    color: #cacebe;
-    border-radius: 5px;
-    margin: 1px 40% 1px 40%;
-    background-color: #60BE42;
-}
-
-#gamePhotos {
-    position: absolute;
-    width: 70%;
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 200px 15% 0px 15%;
-    text-align: center;
-}
-
-#gamePhotos>img {
-    width: 250px;
-    height: 250px;
-    margin: 15px;
-}
-
-#gameFinalMessage {
-    font-size: 52px;
-    height: 180px;
-    padding: 2%;
-    border-radius: 10%;
-}
-
-@media only screen and (max-width: 1200px) {
-    #gamePhotos>img {
-        width: 30%;
-        height: 140px;
-    }
-    #gamePhotos {
-        width: 90%;
-        margin: 200px 5% 0px 5%;
-    }
-    #logo>img {
-        left: 12%;
-    }
-}
-
-@media only screen and (max-width: 1050px) {
-    #gamePhotos>img {
-        width: 25%;
-        height: 140px;
-    }
-    #gamePhotos {
-        width: 95%;
-        margin: 200px 2.5% 0px 2.5%;
-    }
-    #logo>img {
-        left: 1%;
-    }
-    #score p {
-        font-size: 20px;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    #topHeader {
-        position: fixed;
-        z-index: 10;
-    }
-    #title {
-        height: 35px;
-    }
-    #title>p {
-        margin: 0;
-        font-size: 20px;
-    }
-    #score {
-        font-size: 20px;
-        height: 25px;
-        margin: 37px 0 0 0;
-    }
-    #gamePhotos {
-        height: 600px;
-        width: 70%;
-        margin: 40px 15% 0px 15%;
-    }
-    #gamePhotos>img {
-        width: 45%;
-        height: 140px;
-        /* margin: 2 6px; */
-    }
-    #footerDiv {
-        position: absolute;
-        width: 100%;
-        height: 32px;
-        bottom: 0;
-        margin: 0px;
-        position: fixed;
-    }
-    #bt4 {
-        padding: 1px;
-        margin-left: 30%;
-        width: 40%;
-        height: 28px;
-        font-size: large;
-    }
-    .LG {
-        font-weight: 400;
-        font-size: 30px;
-    }
-    .title {
-        height: 50px;
-    }
-    #gameFinalMessage {
-        font-size: 38px;
-        height: 150px;
-        margin-top: 120px;
-        padding: 20% 2%;
-    }
-    #logo>img {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    #score {
-        font-size: 20px;
-        height: 50px;
-    }
-}
+                                    body {
+                                    width: 100%;
+                                    background-color: #e4e69f;
+                                    left: 0;
+                                    top: 0;
+                                    position: relative;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                }
+                                
+                                #topHeader {
+                                    background-color: #e4e69f;
+                                    position: absolute;
+                                    width: 100%;
+                                    top: 0;
+                                    left: 0;
+                                    text-align: center;
+                                }
+                                
+                                #title {
+                                    position: absolute;
+                                    height: 70px;
+                                    width: 100%;
+                                    top: 0;
+                                    left: 0;
+                                    margin: 0;
+                                    background-color: #68368f;
+                                    color: #81bc4e;
+                                    font-family: Audiowide Regular;
+                                }
+                                
+                                #logo>img {
+                                    left: 20%;
+                                    position: absolute;
+                                    z-index: 10;
+                                    box-shadow: 0 5px 10px #68368f;
+                                }
+                                
+                                #title>p {
+                                    margin: 10px;
+                                    font-weight: 400;
+                                    font-size: 32px;
+                                }
+                                
+                                .LG {
+                                    margin: 0;
+                                    font-size: 42px;
+                                    font-weight: 500;
+                                    color: #cacbcf;
+                                }
+                                
+                                #score {
+                                    width: 100%;
+                                    font-size: 25px;
+                                    font-weight: 300;
+                                    height: 30px;
+                                    background-color: #81bc4e;
+                                    color: #68368f;
+                                    margin: 72px 0 0 0;
+                                }
+                                
+                                #yourScore,
+                                #yourTries,
+                                #yourlosses {
+                                    font-size: 22px;
+                                    color: #cacbcf;
+                                    border: thin solid #cacbcf;
+                                    height: 25px;
+                                }
+                                
+                                #footerDiv {
+                                    position: absolute;
+                                    width: 100%;
+                                    height: 50px;
+                                    bottom: 5px;
+                                    margin: 2px 0;
+                                    position: fixed;
+                                    background-color: #e4e69f;
+                                }
+                                
+                                #bt4 {
+                                    width: 20%;
+                                    height: 38px;
+                                    text-align: center;
+                                    border-color: #ffffff;
+                                    border-width: 1px;
+                                    font-weight: 400;
+                                    font-size: x-large;
+                                    color: #cacbcf;
+                                    border-radius: 5px;
+                                    margin: 1px 40% 1px 40%;
+                                    background-color: #81bc4e;
+                                }
+                                
+                                #gamePhotos {
+                                    position: absolute;
+                                    width: 70%;
+                                    height: 400px;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    flex-direction: row;
+                                    justify-content: space-around;
+                                    margin: 200px 15% 0px 15%;
+                                    text-align: center;
+                                }
+                                
+                                #gamePhotos>img {
+                                    width: 250px;
+                                    height: 250px;
+                                    margin: 15px;
+                                }
+                                
+                                #gameFinalMessage {
+                                    font-size: 52px;
+                                    height: 180px;
+                                    padding: 2%;
+                                    border-radius: 10%;
+                                }
+                                
+                                @media only screen and (max-width: 1200px) {
+                                    #gamePhotos>img {
+                                        width: 30%;
+                                        height: 140px;
+                                    }
+                                    #gamePhotos {
+                                        width: 90%;
+                                        margin: 200px 5% 0px 5%;
+                                    }
+                                    #logo>img {
+                                        left: 12%;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 1050px) {
+                                    #gamePhotos>img {
+                                        width: 25%;
+                                        height: 140px;
+                                    }
+                                    #gamePhotos {
+                                        width: 95%;
+                                        margin: 200px 2.5% 0px 2.5%;
+                                    }
+                                    #logo>img {
+                                        left: 1%;
+                                    }
+                                    #score p {
+                                        font-size: 20px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 700px) {
+                                    #topHeader {
+                                        position: fixed;
+                                        z-index: 10;
+                                    }
+                                    #title {
+                                        height: 35px;
+                                    }
+                                    #title>p {
+                                        margin: 0;
+                                        font-size: 20px;
+                                    }
+                                    #score {
+                                        font-size: 20px;
+                                        height: 25px;
+                                        margin: 37px 0 0 0;
+                                    }
+                                    #gamePhotos {
+                                        height: 600px;
+                                        width: 70%;
+                                        margin: 40px 15% 0px 15%;
+                                    }
+                                    #gamePhotos>img {
+                                        width: 45%;
+                                        height: 140px;
+                                        /* margin: 2 6px; */
+                                    }
+                                    #footerDiv {
+                                        position: absolute;
+                                        width: 100%;
+                                        height: 32px;
+                                        bottom: 0;
+                                        margin: 0px;
+                                        position: fixed;
+                                    }
+                                    #bt4 {
+                                        padding: 1px;
+                                        margin-left: 30%;
+                                        width: 40%;
+                                        height: 28px;
+                                        font-size: large;
+                                    }
+                                    .LG {
+                                        font-weight: 400;
+                                        font-size: 30px;
+                                    }
+                                    .title {
+                                        height: 50px;
+                                    }
+                                    #gameFinalMessage {
+                                        font-size: 38px;
+                                        height: 150px;
+                                        margin-top: 120px;
+                                        padding: 20% 2%;
+                                    }
+                                    #logo>img {
+                                        display: none;
+                                    }
+                                    @media only screen and (max-width: 500px) {
+                                        #score p {
+                                            font-size: 15px;
+                                        }
+                                        #title>p {
+                                            margin: 0;
+                                            font-size: 16px;
+                                        }
+                                        #gamePhotos {
+                                            height: 470px;
+                                        }
+                                        #
+                                    }

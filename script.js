@@ -56,7 +56,7 @@ function rpsGame(yourchoice) {
             return { "message": "you lost", "color": "#ea220d" };
         } else if (yourScore === 0.5) {
             hitSound.play();
-            return { "message": "you tied!", "color": "#60BE42" };
+            return { "message": "you tied!", "color": "#81bc4e" };
         } else {
             winSound.play();
             if (showYourScore >= 0) {
@@ -64,7 +64,7 @@ function rpsGame(yourchoice) {
             } else if (testCase === true) {
                 showYourScore = 0;
             }
-            return { "message": "you won!", "color": "#960cc3" };
+            return { "message": "you won!", "color": "#68368f" };
         }
     }
 
