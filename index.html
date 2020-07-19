@@ -8,30 +8,36 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="manifest" href="manifest.json" />
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="icon" href="logo480.png" type="image/png" sizes="32x32">
 
 </head>
 
 <body>
 
     <div id="container">
-        <div class="title">
-            <h1><span class="LG">R</span>ock <span class="LG">P</span>aper <span class="LG">S</span>cissor </h1>
-            <h1>- <span class="LG">G</span>ame</h1>
+        <div id="topHeader">
+            <div id="logo">
+                <img src="logo480.png" width="100" height="100">
+            </div>
+            <div id="title">
+
+                <p><span class="LG">R</span>ock <span class="LG">P</span>aper <span class="LG">S</span>cissor <span class="LG">G</span>ame </p>
+            </div>
+            <div id="score">
+                <p>Your result after <span id="yourTries"> 0 </span> tries: Win Score: <span id="yourScore"> 0 </span> - Loss Score: <span id="yourlosses"> 0 </span></p>
+            </div>
         </div>
         <div id="gamePhotos">
             <img id="rock" src="rock.png" onclick="rpsGame(this);" />
             <img id="paper" src="paper.png" onclick="rpsGame(this);" />
             <img id="scissor" src="scissors.png" onclick="rpsGame(this);" />
         </div>
-        <div class="center">
-            <button id="bt4" onclick="location.reload();"> Play Again</button>
+        <div id="footerDiv">
+            <button id="bt4" onclick="playAgain();"> Try Again</button>
         </div>
     </div>
 
     <script type=" text/javascript " src="script.js "></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script> -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js "></script> -->
 </body>
 
 </html>
