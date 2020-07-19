@@ -1,6 +1,6 @@
-const hitSound = new Audio('sounds/swish.m4a');
-const winSound = new Audio('sounds/cash.mp3');
-const lossSound = new Audio('sounds/aww.mp3');
+const hitSound = new Audio('swish.m4a');
+const winSound = new Audio('cash.mp3');
+const lossSound = new Audio('aww.mp3');
 let triesNos = [];
 let showYourScore = 0;
 let lostNos = 0;
