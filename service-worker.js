@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["index.html","5848219fdc1998960a77e2c110435999"],["logo.png","e348ebb73c7452091b17b5ea26bbb77d"],["logo100.png","89fc2a5ff5bf5bc32c2da9313938557e"],["logo480.png","9259e857a659d0e865f3591ef77868a7"],["manifest.json","b338a6df1daaf2ff863b7a1e7b1f11f3"],["package.json","dae07fb1911caa2412161de9bf19614f"],["paper.png","c5e546cd9a58fd4ab82796386643563c"],["rock.png","ce821bc75607973e611034134c485cf6"],["scissors.png","66b48df7b257283fa500165cba9444f9"],["script.js","930089eb06d595788fc3ddc773f0e672"],["sounds/aww.mp3","e894bb4f5ddea603f6684f247fe0d215"],["sounds/cash.mp3","915cfb823daeba22f1acc03c3da13bfe"],["sounds/swish.m4a","af479ba9668b893cbf56fc2d39eeeb5a"],["style.css","edc73601e03590e6da04aae52cdf48bb"]];
+var precacheConfig = [["index.html","5848219fdc1998960a77e2c110435999"],["logo.png","e348ebb73c7452091b17b5ea26bbb77d"],["logo100.png","89fc2a5ff5bf5bc32c2da9313938557e"],["logo480.png","9259e857a659d0e865f3591ef77868a7"],["manifest.json","b338a6df1daaf2ff863b7a1e7b1f11f3"],["package.json","dae07fb1911caa2412161de9bf19614f"],["paper.png","c5e546cd9a58fd4ab82796386643563c"],["rock.png","ce821bc75607973e611034134c485cf6"],["scissors.png","66b48df7b257283fa500165cba9444f9"],["script.js","2468c84d8ed4fb0c617428b00890053e"],["sounds/aww.mp3","e894bb4f5ddea603f6684f247fe0d215"],["sounds/cash.mp3","915cfb823daeba22f1acc03c3da13bfe"],["sounds/swish.m4a","af479ba9668b893cbf56fc2d39eeeb5a"],["style.css","edc73601e03590e6da04aae52cdf48bb"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
