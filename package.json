@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/maha-jwa/RPS Game.git"
+        "url": "https://github.com/maha-jwa/RPS-Game.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/maha-jwa/RPS Game/issues"
+        "url": "https://github.com/maha-jwa/RPS-Game/issues"
     },
-    "homepage": "https://github.com/maha-jwa/RPS Game",
+    "homepage": "https://github.com/maha-jwa/RPS-Game",
     "dependencies": {
         "sw-precache": "^5.2.1"
     }
