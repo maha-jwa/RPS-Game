@@ -1,3 +1,8 @@
+if ('serviceWorker' in navigator) {
+    // register service worker
+    navigator.serviceWorker.register('serviceworker.js');
+}
+
 const hitSound = new Audio('swish.m4a');
 const winSound = new Audio('cash.mp3');
 const lossSound = new Audio('aww.mp3');
