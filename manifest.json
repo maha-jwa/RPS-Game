@@ -1,7 +1,7 @@
 {
     "name": "RPS Game by Maha ElFeky",
     "short_name": "RPS Game",
-    "start_url": "index.html",
+    "start_url": "index.html?utm_source=homescreen",
     "scope": ".",
     "icons": [{
             "src": "logo100.png",
