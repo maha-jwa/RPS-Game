@@ -16,7 +16,7 @@
     "bugs": {
         "url": "https://github.com/maha-jwa/RPS-Game/issues"
     },
-    "homepage": "https://github.com/maha-jwa/RPS-Game",
+    "homepage": "https://github.com/maha-jwa/RPS-Game/index.html",
     "dependencies": {
         "sw-precache": "^5.2.1"
     }
